@@ -3,6 +3,7 @@
 ## App Modernization
 
 *From:* engineering.manager@travel0.com
+
 As we are moving through our modernization project, we’re now looking at Cruise0
 which as you know has been live with Auth0 for some time. 
 We have a number of elements we want to look at:
@@ -81,10 +82,13 @@ IDE: VS-Code
 Server: VS-Code Live Server Extension = ritwickdey.liveserver
 Run:
   1. Open the "bigtime" folder in VS-Code
-	2. Rund Server ("Go-Live" bottom right)
+  2. Rund Server ("Go-Live" bottom right)
 ```
 		
 
+<br />
+<br />
+<br />
 
 
 
