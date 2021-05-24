@@ -84,6 +84,14 @@ Run:
   1. Open the "bigtime" folder in VS-Code
   2. Rund Server ("Go-Live" bottom right)
 ```
+
+
+## Tests Account
+```code
+	User:	test@mail.com
+	paswd:	Asdf123?
+```
+
 		
 
 <br />
