@@ -43,37 +43,46 @@ Your solution will, therefore, need to demonstrate the following:
 ✔	6. If the **photo and country** of the customer are known, 
 ✔		make sure this **information is passed back to the application** 
 ✔		and **shown after the user authenticates**.
+```
 
 If you aren't able to implement every item in your PoC, that's okay, but be prepared to
 explain to the Travel0 team how they'd implement it based on what you demonstrate.
-```
 
 ## Credentials
+```code
 Type: Single Page Application
 Name: bigtime
 Domain: lukmar.au.auth0.com
 Client ID: *****
 Client Secret: *****
+```
 
 
 ## Auth0 - Application Settings
+```code
 Allowed Callback URLs: http://127.0.0.1:5500
 Allowed Logout URLs: http://127.0.0.1:5500
 Allowed Web Origins: http://127.0.0.1:5500
+```
 
 
 ## Auth0 - Rules
+```code
 Additional Country/timezone info
 "https://example.com/country": "Australia",
 "https://example.com/timezone": "Australia/Brisbane",
 "https://example.com/country_code": "AU",
+```
 
 
 ## Local - Setup
+```code
 IDE: VS-Code
 Server: VS-Code Live Server Extension = ritwickdey.liveserver
-Run:	1. Open the "bigtime" folder in VS-Code
-		2. Rund Server ("Go-Live" bottom right)
+Run:
+  1. Open the "bigtime" folder in VS-Code
+	2. Rund Server ("Go-Live" bottom right)
+```
 		
 
 
