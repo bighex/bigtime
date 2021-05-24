@@ -1,3 +1,83 @@
+# Challenge #3
+
+## App Modernization
+
+*From:* engineering.manager@travel0.com
+As we are moving through our modernization project, we’re now looking at Cruise0
+which as you know has been live with Auth0 for some time. 
+We have a number of elements we want to look at:
+	- We are rebuilding Cruise0 as a modern web application (SPA) in ReactJS.
+	- During that rebuild, we want to drive growth in the app by enabling social
+		login and ensure we validate Customer emails.
+	- Customer insights - the marketing team wants to introduce targeted demographic content in-app.
+We think these things can be achieved with Auth0, but we aren’t sure how Auth0 can support ReactJS, social, and marketing requirements.
+We are looking for guidance, a solution walkthrough, and a demonstration showing how Auth0 can help solve the above.
+
+
+
+## Deliverable
+As their TAM, you will need to design a solution and build a **PoC** (Proof of Concept) that
+shows how we can help solve the above use case leveraging the Auth0 identity platform.
+
+Your solution will, therefore, need to demonstrate the following:
+	1. Show how Auth0 can support the Cruise0 app modernization on ReactJS (you are free to build 
+✔		the **PoC single page application** in your preferred language for demonstration purposes).
+	
+✔	2. Show **how a new customer can sign up**, 
+✔		and **how an existing customer can sign in with email/password**, 
+✔		and **Google**.
+
+✔	3. Ensure that **customers who login with username/password** 
+✔		and **Google**, 
+✔		with the same email address, **will be treated as the same user.**
+✔		Also known as **Account Linking**.
+		
+✔	4. The application should **display an error if the customer’s email address is not verified.**
+	
+	5. Use Auth0 features to **customize the profile page** so both 
+✔		the **photo**
+✔		and **country flag** are displayed 
+✔		**without prompting users to input directly**.
+
+✔	6. If the **photo and country** of the customer are known, 
+✔		make sure this **information is passed back to the application** 
+✔		and **shown after the user authenticates**.
+
+If you aren't able to implement every item in your PoC, that's okay, but be prepared to
+explain to the Travel0 team how they'd implement it based on what you demonstrate.
+
+
+## Credentials
+Type: Single Page Application
+Name: bigtime
+Domain: lukmar.au.auth0.com
+Client ID: *****
+Client Secret: *****
+
+
+## Auth0 - Application Settings
+Allowed Callback URLs: http://127.0.0.1:5500
+Allowed Logout URLs: http://127.0.0.1:5500
+Allowed Web Origins: http://127.0.0.1:5500
+
+
+## Auth0 - Rules
+Additional Country/timezone info
+"https://example.com/country": "Australia",
+"https://example.com/timezone": "Australia/Brisbane",
+"https://example.com/country_code": "AU",
+
+
+## Local - Setup
+IDE: VS-Code
+Server: VS-Code Live Server Extension = ritwickdey.liveserver
+Run:	1. Open the "bigtime" folder in VS-Code
+		2. Rund Server ("Go-Live" bottom right)
+		
+
+
+
+
 # Sample 01 - Login
 
 The purpose of this article is to demonstrate how simple it is to set up and use the new Single Page Application SDK, and authenticate a user in your application using Auth0's Universal Login Page.
