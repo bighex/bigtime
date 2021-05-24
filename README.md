@@ -20,6 +20,7 @@ As their TAM, you will need to design a solution and build a **PoC** (Proof of C
 shows how we can help solve the above use case leveraging the Auth0 identity platform.
 
 Your solution will, therefore, need to demonstrate the following:
+```code
 	1. Show how Auth0 can support the Cruise0 app modernization on ReactJS (you are free to build 
 ✔		the **PoC single page application** in your preferred language for demonstration purposes).
 	
@@ -45,7 +46,7 @@ Your solution will, therefore, need to demonstrate the following:
 
 If you aren't able to implement every item in your PoC, that's okay, but be prepared to
 explain to the Travel0 team how they'd implement it based on what you demonstrate.
-
+```
 
 ## Credentials
 Type: Single Page Application
