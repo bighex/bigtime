@@ -93,7 +93,6 @@ const updateUI = async () => {
 
 			//Country Flag
 			const flag = new CountryFlag(document.querySelector("#profile-flag .country-flag"));
-			const nameElement = document.querySelector("#sample-country .country-name");
 			flag.selectByAlpha2( user['https://example.com/country_code'] );
 
 		} else {
